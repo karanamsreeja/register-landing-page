@@ -1,0 +1,113 @@
+/* navbar  */
+
+.nav-text{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+    letter-spacing: 0px !important;
+    text-transform: none !important;
+    color: #363636 !important;
+
+    cursor: pointer;
+    padding: 4px 20px !important;
+   
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    background-color: #fff !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.css-96hs3e{
+    justify-content: center !important;
+   
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #000;
+    /* padding: 6px 10px; */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  @media (max-width: 900px) {
+    .dropdown .dropbtn {
+      color:#000;
+    }
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .login-botton {
+    background-image: linear-gradient(to right, #0865a7 , #0a456F);
+    border-radius: 10px;
+  }
+  .home-btn{
+    border-radius: 15px !important;
+}
+
+.page{
+  padding:8% 0;
+  text-align: center;
+}
+
+.css-1x7skt0{
+  background-color: #fff !important;
+} 
+
+
+
+
+/* footer */
+.iconContainer {
+  height: '48px';
+  width: '48px';
+  border-radius: '50%';
+  background-color: '#133373';
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+}
+
+.iconContainer2 {
+  height: '38px';
+  width: '38px';
+  border-radius: '50%';
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+  background: 'transparent';
+  border: '1px solid white';
+  margin-right: '8px';
+}
