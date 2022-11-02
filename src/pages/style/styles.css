@@ -6,17 +6,42 @@
     color: rgb(6, 34, 92);
 }
 
+/* @media screen and (max-width: 900px) {
+    .bg{
+    background-image: url("../../common/images/sens(900).png");   
+    padding:5% 10px;
+    }
+}
+
+
+    .bg{
+    background-image: url("../../common/images/sens-one.png");   
+    padding:5% 50px;
+    }
+} */
+
 .bg{
     margin-top: 40px;
-    background-image: url("../../common/images/sens-one.png");
+    background-image: url("../../common/images/sens.png");
 background-repeat: no-repeat;
 color:#fff;
+background-position: center; 
 padding:5% 50px;
-
 border-radius: 50px;
-
+background-size: cover;
 
 }
+
+.bg-pd{
+    /* padding:50px; */
+}
+
+@media screen and (max-width: 450px) {
+    .bg{
+        padding:5% 20px !important;
+    }
+}
+
 .bg-color{
     background-color: #021130;
     padding:20px;
