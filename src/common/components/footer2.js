@@ -134,6 +134,15 @@ const Footer = () => {
 							<img src='/assets/icons/instagram.svg' alt='call-calling' />
 						</a>
 						<a
+							// href='https://www.instagram.com/iom_bioworks/?igshid=YmMyMTA2M2Y='
+							alt='insta'
+							target='_blank'
+							rel='noreferrer'
+							className={classes.iconContainer2}
+						>
+							<img src='/assets/icons/instagram.svg' alt='call-calling' />
+						</a>
+						<a
 							// href='https://www.facebook.com/Iom-Bioworks-106434405389010/'
 							alt='facebook'
 							target='_blank'

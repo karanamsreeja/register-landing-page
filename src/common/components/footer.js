@@ -23,10 +23,10 @@ function Footer() {
 						style={{ paddingTop: '45px', paddingRight: '30px' ,textAlign:'left'}}
 					><img  src={img1} alt="" style={{height:"50px"}}/>
                     
-                    
+					    <Grid container spacing={2} sx={{ mt: '0' }}>
 							<Grid container item spacing={2} md={5} xs={5}>
 								<Grid item>
-<img   src={call} alt="" className="jss8"/>
+									<img   src={call} alt="" className="jss8"/>
                                 </Grid>
                                 <Grid item sx={{ paddingTop: '20px' }}>
 									<Typography variant='caption' color='white'>
@@ -36,7 +36,8 @@ function Footer() {
 										+91 8939434445
 									</Typography>
 								</Grid>
-                                <Grid container item spacing={2} md={6.5} xs={6}>
+							</Grid>
+                            <Grid container item spacing={2} md={6.5} xs={6}>
 								<Grid item>
 									<div className="iconContainer">
 									<img   src={mail} alt="" className="jss8"/>
@@ -51,9 +52,10 @@ function Footer() {
 									</Typography>
 								</Grid>
 							</Grid>
-                            </Grid>
+                        </Grid>
+                   
                     </Grid>
-                    </Grid>
+					</Grid>
 </Container>
 <div style={{ borderBottom: '1px solid #1B3C7F', marginBottom: '8px' }}></div>
 			<Container style={{ paddingTop: '16px', paddingBottom: '32px' }}>
@@ -99,7 +101,7 @@ function Footer() {
 							rel='noreferrer'
 							className="iconContainer2"
 						>
-						<img   src={insta} alt="" className="jss8"/>
+						<img   src={insta} alt="" className="jss9"/>
 						</a>
 						<a
 							// href='https://www.facebook.com/Iom-Bioworks-106434405389010/'
@@ -108,10 +110,10 @@ function Footer() {
 							rel='noreferrer'
 							className="iconContainer2"
 						>
-							<img src={fb}  alt='facebook' />
+							<img src={fb}  alt='facebook'  className="jss9"/>
 						</a>
 						<a alt='twitter' target='_blank' rel='noreferrer' className="iconContainer2">
-							<img  src={twitter} alt=""/>
+							<img  src={twitter} alt=""  className="jss9"/>
 						</a>
 						<a
 							// href='https://www.linkedin.com/in/iom-bioworks-58b182246/'
@@ -120,7 +122,7 @@ function Footer() {
 							rel='noreferrer'
 							className="iconContainer2"
 						>
-							<img  src={li} alt=""/>
+							<img  src={li} alt=""  className="jss9"/>
 						</a>
 					</div>
 					<div>

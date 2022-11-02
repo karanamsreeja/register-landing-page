@@ -1,6 +1,6 @@
 import React from 'react'
 import "../style/styles.css";
-import {Container,Typography, Grid, Box, Button} from '@mui/material';
+import {Container,Typography, Grid,  Button} from '@mui/material';
 
 
   
@@ -15,7 +15,9 @@ function Register() {
          managing the bacteria in your gut. We help you harness your inner winning power. Your daily performance
           simply goes up with Better Sleep, Better Energy Levels and better managed Stress </Typography>
 
-          <Button variant="contained" style={{backgroundColor:'#E1AB3B',marginTop:'20px'}}>Order Now</Button>
+          <Button variant="contained" href="https://akmu7rzwzuh.typeform.com/to/o9WjFaff"
+          
+           style={{backgroundColor:'#E1AB3B',marginTop:'20px'}}>Order Now</Button>
 
 <div className="bg" >
 <Grid container spacing={2} style={{padding:'30px 0', color:'#fff'}} >
@@ -23,7 +25,7 @@ function Register() {
     <div className="bg-color">
 
                 <Typography variant='h6' component='div' color="#fff" fontWeight='400' gutterBottom>The Microbiome People </Typography>
-              <br/>  <Typography variant='h4' component='div' color='#fff' fontWeight='500' gutterBottom> Perform with SEnS</Typography>
+              <br/>  <Typography variant='h4' component='div' color='#E1AB3B' fontWeight='500' gutterBottom> Perform with SEnS</Typography>
              <br/>   <Typography variant='p' component='div' color="#fff" gutterBottom> 
                 At Iom, we understand that Stress & anxiety, Energy levels and Sleeping challenges impact performance and confidence.
                 <br/>
