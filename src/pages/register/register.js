@@ -15,7 +15,7 @@ function Register() {
          managing the bacteria in your gut. We help you harness your inner winning power. Your daily performance
           simply goes up with Better Sleep, Better Energy Levels and better managed Stress </Typography>
 
-          <Button variant="contained" href="https://akmu7rzwzuh.typeform.com/to/o9WjFaff"
+          <Button variant="contained" href="https://akmu7rzwzuh.typeform.com/to/eowerG6J"
           
            style={{backgroundColor:'#E1AB3B',marginTop:'20px'}}>Order Now</Button>
 
