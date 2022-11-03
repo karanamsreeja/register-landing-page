@@ -19,7 +19,7 @@ function Register() {
           
        </Typography>
 
-          <Button variant="contained"  href="https://akmu7rzwzuh.typeform.com/to/eowerG6J"
+          <Button variant="contained" href="https://akmu7rzwzuh.typeform.com/to/eowerG6J"
           style={{backgroundColor:'#E1AB3B',marginTop:'20px',borderRadius:'20px'}}>Register here</Button>
 {/* className="bg" */}
 <div style={{textAlign:'center'}} >
