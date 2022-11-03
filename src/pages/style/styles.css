@@ -5,6 +5,15 @@
 .headding{
     color: rgb(6, 34, 92);
 }
+.reg1{
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .reg1{
+        text-align: left;
+    }
+}
 
 /* @media screen and (max-width: 900px) {
     .bg{
@@ -91,8 +100,10 @@ background-size: 100% 100%;
 }
 @media screen and (max-width: 400px) {
     .bg-img{
-        background-image: none;
+        /* background-image: none; */
         padding-top:0px;
     }
 }
+
+
 

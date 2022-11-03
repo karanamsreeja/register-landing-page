@@ -8,7 +8,7 @@ function Register() {
 
   return (
  <div className='register'>
-    	<Container sx={{ pt: '100px', pb: '100px', textAlign: 'center' }}>
+    	<Container sx={{ pt: '100px', pb: '100px' }} className="reg1">
         <Typography variant='h3' component='div' color='#06225C' fontWeight='700' gutterBottom> PERFORM with SEnS </Typography>
         <Typography variant='h5' component='div' color='#E99E1B' fontWeight='500' gutterBottom>Trillions of Bacteria, Infinite Possibilities </Typography>
          <Typography variant='h6'  component='div' color="#000">
