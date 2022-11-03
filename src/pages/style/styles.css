@@ -22,7 +22,7 @@
 
 .bg{
     margin-top: 40px;
-    background-image: url("../../common/images/download.png");
+    background-image: url("../../common/images/iom-bg.png");
 background-repeat: no-repeat;
 color:#fff;
 background-position: center; 
@@ -32,6 +32,11 @@ background-size: 100% 100%;
 
 }
 
+@media screen and  (min-width:900px) {
+    .bg-color{
+       margin: 100px 0;
+    }
+}
 
 @media screen and (max-width: 900px) and (min-width:450px) {
     .bg-color{
@@ -41,7 +46,7 @@ background-size: 100% 100%;
 
 @media screen and (max-width: 450px) {
     .bg{
-        background-image:none;
+        /* background-image:none; */
         padding:5% 20px !important;
     }
     .bg-color{
