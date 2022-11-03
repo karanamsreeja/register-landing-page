@@ -1,7 +1,7 @@
 import React from 'react'
 import "../style/styles.css";
 import {Container,Typography, Grid,  Button} from '@mui/material';
-
+import img from "../../common/images/download.png"
 
   
 function Register() {
@@ -21,11 +21,12 @@ function Register() {
 
           <Button variant="contained" href="https://akmu7rzwzuh.typeform.com/to/eowerG6J"
           style={{backgroundColor:'#E1AB3B',marginTop:'20px',borderRadius:'20px'}}>Register here</Button>
-
-<div className="bg" >
-<Grid container className="bg-pd" spacing={2} style={{padding:'30px 0', color:'#fff'}} >
+{/* className="bg" */}
+<div style={{textAlign:'center'}} >
+<Grid container className="bg-pd"  style={{padding:'30px 0', color:'#fff'}} >
 {/* <Grid item lg={0}  md={0} sm={12} xs={12} ></Grid> */}
-<Grid item lg={4}  md={4} sm={12} xs={12} style={{textAlign:'center'}}>
+<Grid item lg={3}  md={3} sm={4} xs={12} style={{textAlign:'center',margin:'auto 0'}}>
+<div className="bg-img">
     <div className="bg-color">
 
                 {/* <Typography variant='h6' component='div' color="#fff" fontWeight='400' gutterBottom>The Microbiome People </Typography> */}
@@ -36,6 +37,13 @@ function Register() {
         <p> Your daily performance simply goes up with Better Sleep, Better Energy Levels and Better managed Stress
                .</p> </Typography>
                 </div>
+                </div>
+               </Grid>
+               <Grid item lg={9}  md={9} sm={8} xs={12} style={{textAlign:'center',overFlowX:'hidden'}}>
+            
+                <img src={img} alt="" style={{width:'100%',borderRadius:'50px'}} className="reg-img"/>
+               
+              
                </Grid>
                {/* <Grid item md={6} xs={12} >
                 <div style={{textAlign:'center',alignItems:'center'}}>

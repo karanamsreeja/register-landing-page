@@ -40,7 +40,7 @@ background-size: 100% 100%;
 
 @media screen and (max-width: 900px) and (min-width:450px) {
     .bg-color{
-        margin-top:275px;
+        /* margin-top:275px; */
     }
 }
 
@@ -55,9 +55,44 @@ background-size: 100% 100%;
 }
 
 .bg-color{
-  
+  margin:auto 0;
     background-color: #021130;
     padding:15px;
     border-radius: 10px;
     opacity: 0.8;
+  
 }
+
+@media screen and (min-width: 900px) {
+    .bg-color{   width:130%;}
+}
+
+@media screen and (max-width: 900px) {
+    .bg-color{  width:150%;}
+}
+
+@media screen and (max-width: 700px) {
+    .bg-color{  width:170%;}
+}
+@media screen and (max-width: 600px) {
+    .bg-color{  width:auto;}
+    .reg-img{
+        display:none
+    }
+    .bg-img{
+        background-image: url("../../common/images/sens.png");
+        width:100%;
+        padding-top:250px;
+        background-position: center; 
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .bg-img{
+        background-image: none;
+        padding-top:0px;
+    }
+}
+
