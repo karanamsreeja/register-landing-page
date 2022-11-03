@@ -30,7 +30,7 @@ function Register() {
     <div className="bg-color">
 
                 {/* <Typography variant='h6' component='div' color="#fff" fontWeight='400' gutterBottom>The Microbiome People </Typography> */}
-            <Typography variant='h4' component='div' color='#E1AB3B' fontWeight='500' gutterBottom> Perform with SEnS</Typography>
+            <Typography variant='h5' component='div' color='#E1AB3B' fontWeight='400' gutterBottom> Better Bacteria, Better You</Typography>
          <Typography variant='p' component='div' color="#fff" gutterBottom style={{marginTop:'20px'}}>     We help you perform to your best, each day, by 
          managing the bacteria in your gut.
           {/* We help you harness your inner winning power.  */}
