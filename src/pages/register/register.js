@@ -20,19 +20,21 @@ function Register() {
        </Typography>
 
           <Button variant="contained" href="https://akmu7rzwzuh.typeform.com/to/eowerG6J"
-          style={{backgroundColor:'#E1AB3B',marginTop:'20px'}}>Order Now</Button>
+          style={{backgroundColor:'#E1AB3B',marginTop:'20px',borderRadius:'20px'}}>Register here</Button>
 
 <div className="bg" >
 <Grid container className="bg-pd" spacing={2} style={{padding:'30px 0', color:'#fff'}} >
-<Grid item lg={4}  md={6} sm={8} xs={12} style={{textAlign:'center'}}>
+{/* <Grid item lg={0}  md={0} sm={12} xs={12} ></Grid> */}
+<Grid item lg={4}  md={4} sm={12} xs={12} style={{textAlign:'center'}}>
     <div className="bg-color">
 
                 {/* <Typography variant='h6' component='div' color="#fff" fontWeight='400' gutterBottom>The Microbiome People </Typography> */}
             <Typography variant='h4' component='div' color='#E1AB3B' fontWeight='500' gutterBottom> Perform with SEnS</Typography>
          <Typography variant='p' component='div' color="#fff" gutterBottom style={{marginTop:'20px'}}>     We help you perform to your best, each day, by 
-         managing the bacteria in your gut. We help you harness your inner winning power. Your daily performance
-          simply goes up with Better Sleep, Better Energy Levels and better managed Stress
-               .</Typography>
+         managing the bacteria in your gut.
+          {/* We help you harness your inner winning power.  */}
+        <p> Your daily performance simply goes up with Better Sleep, Better Energy Levels and Better managed Stress
+               .</p> </Typography>
                 </div>
                </Grid>
                {/* <Grid item md={6} xs={12} >
